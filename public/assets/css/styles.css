@@ -1,0 +1,61 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.bg{
+    background: url('../images/bg.gif');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.px-9{
+    padding-right: 9rem!important;
+    padding-left: 9rem!important;
+}
+.bg-blue{
+    background-color: #bbdefb !important;
+}
+.logo{
+    width: 160px;
+}
+.weather-panel{
+    background-color: rgb(255 255 255 / 70%);
+    color: #363636;
+    box-shadow: 5px 5px 40px #363636;
+    border-radius: 27px;
+}
+.weather-icon{
+    font-size: 18px;
+}
+.select2-container--default .select2-selection--single{
+    border-radius: 10px;
+}
+.date-info{
+    background-color: #42a5f5;
+    color: #fff;
+}
+.temp{
+    display: block;
+    color: #0d47a1;
+    font-size: 4rem;
+}
+.location{
+    color: #0d47a1;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.table td{
+    padding: 0.75rem 2rem;
+}
+.weather-prop{
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+#loading > img{
+    width: 250px;
+}
+#loading > h2{
+    color: #1380a7;
+}
