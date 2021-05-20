@@ -13,7 +13,7 @@ class CitySeeder extends Seeder{
      * @return void
      */
     public function run(){
-        $json = Storage::get('public/json-data/cities.json');
+        $json = Storage::get('public/cities.json');
         $cities = json_decode($json);
         $data = array();
 
